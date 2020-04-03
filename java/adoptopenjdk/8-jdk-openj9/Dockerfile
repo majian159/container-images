@@ -1,5 +1,5 @@
 ARG TAG
-FROM adoptopenjdk:${TAG}
+FROM adoptopenjdk:8-jdk-openj9
 ENV TZ=Asia/Shanghai
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
     && sed -i 's/security.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
