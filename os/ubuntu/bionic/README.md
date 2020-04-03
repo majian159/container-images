@@ -1,3 +1,3 @@
 # Feature
 - set timezone Asia/Shanghai
-- set mirror aliyun
+- set apt sources to Ali Cloud
